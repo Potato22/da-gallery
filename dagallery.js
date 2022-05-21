@@ -16,7 +16,7 @@
         }))
     }
 
-    window.deviantARTGalleryPlugin = function (element, username, galleryId) {
+    window.daGallery = function (element, username, galleryId) {
         //CHANGE THE AMOUNT OF IMAGES TO DISPLAY BY CHANGING $limit=<num>
         //IMAGE LIMIT IS 60
         const url = `https://backend.deviantart.com/rss.xml?q=gallery:${username}/${galleryId}&limit=10`
@@ -24,6 +24,7 @@
             const fragment = document.createDocumentFragment()
             for (const image of images) {
                 const img = new Image()
+                //You can change the template of what the script will inject into DOM here. Feel free to customize!
                 img.setAttribute('style', 'position: relative; max-width:100%; overflow: hidden;')
                 img.src = image.imageUrl
                 img.alt = image.title
@@ -37,7 +38,7 @@
     window.addEventListener('DOMContentLoaded', () => {
         document.querySelectorAll('[data-da-gallery]').forEach(e => {
             const data = e.dataset.daGallery.split("/")
-            deviantARTGalleryPlugin(e, data[0], data[1])
+            daGallery(e, data[0], data[1])
         })
     })
 
