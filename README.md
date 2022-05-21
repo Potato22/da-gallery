@@ -38,7 +38,7 @@ _note: Mostly for demonstration purposes, this will just make things looks basic
     
       
       
-4 - Fill in your username and the desired gallery id on the `data-da-gallery`
+4 - Fill in your username and the desired gallery id on the `data-da-gallery`  
 To find your gallery id, visit your page and open up "Gallery"
 ![image](https://user-images.githubusercontent.com/39096741/169669799-7b64dd21-e78f-4f73-9853-84565dcdd337.png)  
 Open up one of your gallery and look over to the URL in the address bar  
