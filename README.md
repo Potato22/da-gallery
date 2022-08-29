@@ -1,7 +1,7 @@
-DAGallery
+DA-Gallery
 ===
 
-Dagallery or DeviantArt Gallery plugin is a **simple** straight forward and **easy-to-integrate** script driven by js.  
+Da-gallery or DeviantArt Gallery plugin is a **simple** straight forward and **easy-to-integrate** script driven by js.  
 The script will pull a set amount of images from a DeviantArt gallery with a maximum of **60** images.  
 
 This project is not possible without the giant help from [Tschrock!](https://github.com/Tschrock)
